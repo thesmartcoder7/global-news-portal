@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi="*"
+charset-normalizer="*"
+click="*"
+Flask="*"
+Flask-Script="*"
+gunicorn="*"
+idna="*"
+itsdangerous="*"
+Jinja2="*"
+MarkupSafe="*"
+python-dotenv="*"
+requests="*"
+urllib3="*"
+Werkzeug="*"
+zipp="*"
+
+[dev-packages]
+
+[requires]
+python_version = "*"
